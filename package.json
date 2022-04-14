@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
   }
 }

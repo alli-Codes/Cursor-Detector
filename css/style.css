@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#app{
+	/*background-color: red;*/
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#eyes__container{
+	/*background-color: green;*/
+	height: 20rem;
+	width: 30rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.eyes{
+	background-color: white;
+	height: 13rem;
+	width: 13rem;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	border-radius: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#eye__iris{
+	background-color: brown;
+	height: 6rem;
+	width: 6rem;
+	border-radius: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+#eye__pupil{
+	background-color: black;
+	height: 3rem;
+	width: 3rem;
+	border-radius: 100%;
+}
+
+#eye__hightlight{
+	background-color: white;
+	padding: .5rem;
+	border-radius: 100%;
+	position: absolute;
+	top: 1.5rem;
+	left: 3.5rem;
+	opacity: 0.7;
+}
+
